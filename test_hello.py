@@ -2,8 +2,7 @@ from hello import *
 
 def test_hello():
     msg = "Goodbye"
-
-test_hello(76)
+test_hello()
 
 def setup_function(function):
     print("Running Setup: %s" % {function.__name__})
